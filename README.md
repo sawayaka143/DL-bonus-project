@@ -4,6 +4,8 @@
 
 CSCI1409 Deep Learning, KBTU, bonus project: training an object detector.
 
+**Author:** Yeskenov Aldiyar (student ID 24B031763)
+
 ## Task
 
 Detect and classify four African animals (**buffalo, elephant, rhino, zebra**) with bounding boxes.
