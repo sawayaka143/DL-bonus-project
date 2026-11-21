@@ -221,3 +221,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# project
+.venv/
+datasets/
+runs/**/weights/
+*.pt
+runs/eval/
+runs/data_resolved.yaml
+own_image_pred.jpg

@@ -1,0 +1,8 @@
+# Pinned versions used for this project.
+# torch / torchvision: the runs were trained locally with torch 2.11.0+cu128 and torchvision 0.26.0+cu128
+# (install from https://download.pytorch.org/whl/cu128). On Google Colab keep the preinstalled CUDA build
+# of torch; the packages below are installed on top of it.
+ultralytics==8.4.216
+ImageHash==4.3.2
+PyYAML==6.0.4
+matplotlib==3.11.2

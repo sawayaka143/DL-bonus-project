@@ -1,0 +1,461 @@
+{
+  "summary": {
+    "missed": 11,
+    "false_positive": 28,
+    "wrong_class": 2,
+    "poor_box": 3,
+    "images_with_errors": 32,
+    "test_images": 206
+  },
+  "visualised": [
+    {
+      "file": "failure_1.jpg",
+      "image": "2 (130).jpg",
+      "errors": {
+        "missed": [
+          "elephant (90x58px)",
+          "elephant (30x43px)",
+          "elephant (26x39px)"
+        ],
+        "false_positive": [],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "file": "failure_2.jpg",
+      "image": "4 (200).jpg",
+      "errors": {
+        "missed": [],
+        "false_positive": [
+          "buffalo (0.66), best IoU 0.00",
+          "buffalo (0.62), best IoU 0.00",
+          "buffalo (0.27), best IoU 0.00"
+        ],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "file": "failure_3.jpg",
+      "image": "4 (257).jpg",
+      "errors": {
+        "missed": [],
+        "false_positive": [
+          "zebra (0.29), best IoU 0.00"
+        ],
+        "wrong_class": [
+          "GT zebra predicted as buffalo (0.33)"
+        ],
+        "poor_box": []
+      }
+    },
+    {
+      "file": "failure_4.jpg",
+      "image": "1 (376).jpg",
+      "errors": {
+        "missed": [],
+        "false_positive": [],
+        "wrong_class": [],
+        "poor_box": [
+          "buffalo box IoU 0.47 (0.67)",
+          "buffalo box IoU 0.34 (0.32)"
+        ]
+      }
+    },
+    {
+      "file": "failure_5.jpg",
+      "image": "2 (115).jpg",
+      "errors": {
+        "missed": [],
+        "false_positive": [
+          "elephant (0.56), best IoU 0.00",
+          "elephant (0.37), best IoU 0.00"
+        ],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "file": "failure_6.jpg",
+      "image": "2 (290).jpg",
+      "errors": {
+        "missed": [],
+        "false_positive": [
+          "zebra (0.67), best IoU 0.00",
+          "zebra (0.25), best IoU 0.00"
+        ],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    }
+  ],
+  "all_images_with_errors": [
+    {
+      "image": "2 (130).jpg",
+      "errors": {
+        "missed": [
+          "elephant (90x58px)",
+          "elephant (30x43px)",
+          "elephant (26x39px)"
+        ],
+        "false_positive": [],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "image": "4 (200).jpg",
+      "errors": {
+        "missed": [],
+        "false_positive": [
+          "buffalo (0.66), best IoU 0.00",
+          "buffalo (0.62), best IoU 0.00",
+          "buffalo (0.27), best IoU 0.00"
+        ],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "image": "1 (376).jpg",
+      "errors": {
+        "missed": [],
+        "false_positive": [],
+        "wrong_class": [],
+        "poor_box": [
+          "buffalo box IoU 0.47 (0.67)",
+          "buffalo box IoU 0.34 (0.32)"
+        ]
+      }
+    },
+    {
+      "image": "2 (115).jpg",
+      "errors": {
+        "missed": [],
+        "false_positive": [
+          "elephant (0.56), best IoU 0.00",
+          "elephant (0.37), best IoU 0.00"
+        ],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "image": "2 (290).jpg",
+      "errors": {
+        "missed": [],
+        "false_positive": [
+          "zebra (0.67), best IoU 0.00",
+          "zebra (0.25), best IoU 0.00"
+        ],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "image": "2 (78).jpg",
+      "errors": {
+        "missed": [],
+        "false_positive": [
+          "elephant (0.63), best IoU 0.00",
+          "elephant (0.43), best IoU 0.00"
+        ],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "image": "4 (105).jpg",
+      "errors": {
+        "missed": [],
+        "false_positive": [
+          "elephant (0.74), best IoU 0.00",
+          "elephant (0.64), best IoU 0.00"
+        ],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "image": "4 (257).jpg",
+      "errors": {
+        "missed": [],
+        "false_positive": [
+          "zebra (0.29), best IoU 0.00"
+        ],
+        "wrong_class": [
+          "GT zebra predicted as buffalo (0.33)"
+        ],
+        "poor_box": []
+      }
+    },
+    {
+      "image": "4 (294).jpg",
+      "errors": {
+        "missed": [],
+        "false_positive": [
+          "zebra (0.53), best IoU 0.00",
+          "zebra (0.44), best IoU 0.00"
+        ],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "image": "4 (34).jpg",
+      "errors": {
+        "missed": [
+          "zebra (84x54px)"
+        ],
+        "false_positive": [
+          "zebra (0.33), best IoU 0.00"
+        ],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "image": "1 (137).jpg",
+      "errors": {
+        "missed": [
+          "buffalo (198x119px)"
+        ],
+        "false_positive": [],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "image": "1 (154).jpg",
+      "errors": {
+        "missed": [],
+        "false_positive": [
+          "buffalo (0.42), best IoU 0.00"
+        ],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "image": "1 (196).jpg",
+      "errors": {
+        "missed": [
+          "buffalo (325x262px)"
+        ],
+        "false_positive": [],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "image": "1 (373).jpg",
+      "errors": {
+        "missed": [
+          "buffalo (115x213px)"
+        ],
+        "false_positive": [],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "image": "2 (138).jpg",
+      "errors": {
+        "missed": [],
+        "false_positive": [
+          "elephant (0.41), best IoU 0.00"
+        ],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "image": "2 (227).jpg",
+      "errors": {
+        "missed": [
+          "elephant (205x139px)"
+        ],
+        "false_positive": [],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "image": "2 (85).jpg",
+      "errors": {
+        "missed": [],
+        "false_positive": [
+          "elephant (0.39), best IoU 0.00"
+        ],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "image": "2 (95).jpg",
+      "errors": {
+        "missed": [],
+        "false_positive": [
+          "elephant (0.49), best IoU 0.00"
+        ],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "image": "3 (233).jpg",
+      "errors": {
+        "missed": [
+          "rhino (197x141px)"
+        ],
+        "false_positive": [],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "image": "3 (256).jpg",
+      "errors": {
+        "missed": [],
+        "false_positive": [
+          "rhino (0.84), best IoU 0.00"
+        ],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "image": "3 (261).jpg",
+      "errors": {
+        "missed": [],
+        "false_positive": [
+          "elephant (0.29), best IoU 0.00"
+        ],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "image": "3 (329).jpg",
+      "errors": {
+        "missed": [],
+        "false_positive": [
+          "rhino (0.37), best IoU 0.00"
+        ],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "image": "3 (55).jpg",
+      "errors": {
+        "missed": [],
+        "false_positive": [],
+        "wrong_class": [
+          "GT rhino predicted as buffalo (0.83)"
+        ],
+        "poor_box": []
+      }
+    },
+    {
+      "image": "4 (116).jpg",
+      "errors": {
+        "missed": [
+          "zebra (38x74px)"
+        ],
+        "false_positive": [],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "image": "4 (132).jpg",
+      "errors": {
+        "missed": [],
+        "false_positive": [
+          "elephant (0.30), best IoU 0.00"
+        ],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "image": "4 (138).jpg",
+      "errors": {
+        "missed": [],
+        "false_positive": [],
+        "wrong_class": [],
+        "poor_box": [
+          "zebra box IoU 0.24 (0.78)"
+        ]
+      }
+    },
+    {
+      "image": "4 (153).jpg",
+      "errors": {
+        "missed": [],
+        "false_positive": [
+          "elephant (0.35), best IoU 0.00"
+        ],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "image": "4 (19).jpg",
+      "errors": {
+        "missed": [],
+        "false_positive": [
+          "zebra (0.53), best IoU 0.00"
+        ],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "image": "4 (252).jpg",
+      "errors": {
+        "missed": [],
+        "false_positive": [
+          "zebra (0.28), best IoU 0.00"
+        ],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "image": "4 (357).jpg",
+      "errors": {
+        "missed": [],
+        "false_positive": [
+          "zebra (0.30), best IoU 0.00"
+        ],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "image": "4 (75).jpg",
+      "errors": {
+        "missed": [
+          "zebra (121x125px)"
+        ],
+        "false_positive": [],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    },
+    {
+      "image": "4 (81).jpg",
+      "errors": {
+        "missed": [],
+        "false_positive": [
+          "zebra (0.28), best IoU 0.00"
+        ],
+        "wrong_class": [],
+        "poor_box": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "train": {
+    "images": 1080,
+    "objects": 1978,
+    "images_without_objects": 0,
+    "objects_per_class": {
+      "buffalo": 416,
+      "elephant": 565,
+      "rhino": 410,
+      "zebra": 587
+    },
+    "images_containing_class": {
+      "buffalo": 280,
+      "elephant": 275,
+      "rhino": 270,
+      "zebra": 269
+    }
+  },
+  "val": {
+    "images": 218,
+    "objects": 366,
+    "images_without_objects": 0,
+    "objects_per_class": {
+      "buffalo": 86,
+      "elephant": 87,
+      "rhino": 82,
+      "zebra": 111
+    },
+    "images_containing_class": {
+      "buffalo": 59,
+      "elephant": 52,
+      "rhino": 53,
+      "zebra": 58
+    }
+  },
+  "test": {
+    "images": 206,
+    "objects": 341,
+    "images_without_objects": 0,
+    "objects_per_class": {
+      "buffalo": 52,
+      "elephant": 96,
+      "rhino": 67,
+      "zebra": 126
+    },
+    "images_containing_class": {
+      "buffalo": 40,
+      "elephant": 56,
+      "rhino": 49,
+      "zebra": 62
+    }
+  },
+  "near_duplicate_pairs": {
+    "within train": 62,
+    "within val": 4,
+    "within test": 3
+  }
+}

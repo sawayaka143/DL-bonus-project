@@ -1,0 +1,13 @@
+{
+  "run": "exp_320",
+  "framework": "ultralytics 8.4.216, torch 2.11.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "initial_weights": "yolo11n.pt",
+  "imgsz": 320,
+  "epochs": 50,
+  "batch": 16,
+  "optimizer": "SGD",
+  "lr0": 0.01,
+  "seed": 0,
+  "train_time_min": 5.62
+}

@@ -1,0 +1,13 @@
+# African Wildlife dataset (Ultralytics), with a de-duplicated version of the official split (scripts/make_clean_split.py).
+# Source: https://docs.ultralytics.com/datasets/detect/african-wildlife  (AGPL-3.0)
+# The path is relative to the repository root; scripts/download_data.py fills it.
+path: ../datasets/african-wildlife-clean
+train: images/train  # 1080 images
+val: images/val      # 218 images
+test: images/test    # 206 images
+
+names:
+  0: buffalo
+  1: elephant
+  2: rhino
+  3: zebra
